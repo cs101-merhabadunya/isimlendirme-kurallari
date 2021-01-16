@@ -1,13 +1,13 @@
 <p align="center">
-  <a href="https://github.com/kettanaito/naming-cheatsheet">
-    <img src="./naming-cheatsheet.png" alt="Naming cheatsheet" />
+  <a href="https://github.com/cs101-merhabadunya/isimlendirme-kurallari">
+    <img src="./naming-cheatsheet.png" alt="İsimlendirme kuralları" />
   </a>
 </p>
 
-# Naming cheatsheet
+# İsimlendirme Kuralları
 
 - [Naming convention](#naming-convention)
-- [S-I-D](#s-i-d)
+- [Kısa-Doğal-Açıklayıcı (K-D-A)](#k-d-a)
 - [Avoid contractions](#avoid-contractions)
 - [Avoid context duplication](#avoid-context-duplication)
 - [Reflect expected result](#reflect-expected-result)
@@ -26,7 +26,7 @@ Although these suggestions can be applied to any programming language, I will us
 
 ## Naming convention
 
-Pick **one** naming convention and follow it. It may be `cammelCase`, or `snake_case`, or anyhow else, it does not matter. What matters is for it to remain consistent.
+Pick **one** naming convention and follow it. It may be `camelCase`, or `snake_case`, or anyhow else, it does not matter. What matters is for it to remain consistent.
 
 ```js
 /* Bad */
@@ -42,13 +42,13 @@ const pages_count = 5
 const should_update = true
 ```
 
-## S-I-D
+## K-D-A
 
 A name must be _short_, _intuitive_ and _descriptive_:
 
-- **Short**. A name must not take long to type and, therefore, remember;
-- **Intuitive**. A name must read naturally, as close to the common speech as possible;
-- **Descriptive**. A name must reflect what it does/possesses in the most efficient way.
+- **Kısa**. A name must not take long to type and, therefore, remember;
+- **Doğal**. A name must read naturally, as close to the common speech as possible;
+- **Açıklayıcı**. A name must reflect what it does/possesses in the most efficient way.
 
 ```js
 /* Bad */
@@ -349,3 +349,7 @@ const friend = ['Bob', 'Tony', 'Tanya']
 const friend = 'Bob'
 const friends = ['Bob', 'Tony', 'Tanya']
 ```
+
+# Kaynakça
+
+Bu doküman [Artem Zakharchenko](https://github.com/kettanaito) tarafından oluşturulan [`Naming cheatsheet`](https://github.com/kettanaito/naming-cheatsheet) isimli proje baz alınarak oluşturulmuştur.
